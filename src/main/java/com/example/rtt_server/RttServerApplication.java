@@ -1,5 +1,6 @@
 package com.example.rtt_server;
 
+import com.example.rtt_server.util.DatabaseConnector;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RttServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RttServerApplication.class, args);
+		//pringApplication.run(RttServerApplication.class, args);
+		DatabaseConnector.testConnection();
 	}
 
 }

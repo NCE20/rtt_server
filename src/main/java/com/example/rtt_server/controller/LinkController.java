@@ -17,7 +17,7 @@ public class LinkController {
         this.LinkService = LinkService;
     }
 
-    @GetMapping("/{LinkId}")
+    @GetMapping("/links/{LinkId}")
     public ResponseEntity<LinkDto> getLink(@PathVariable int LinkId) {
         LinkDto LinkDto = LinkService.getLinkById(LinkId);
         return ResponseEntity.ok(LinkDto);

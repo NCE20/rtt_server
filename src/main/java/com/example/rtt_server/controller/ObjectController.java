@@ -16,7 +16,7 @@ public class ObjectController {
         this.objectService = objectService;
     }
 
-    @GetMapping("/{objectId}")
+    @GetMapping("object/{objectId}")
     public ResponseEntity<ObjectDto> getObject(@PathVariable int objectId) {
         ObjectDto objectDto = objectService.getObjectById(objectId);
         return ResponseEntity.ok(objectDto);
