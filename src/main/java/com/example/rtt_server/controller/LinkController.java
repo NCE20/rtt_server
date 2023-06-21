@@ -1,9 +1,25 @@
 package com.example.rtt_server.controller;
 
 import com.example.rtt_server.dto.LinkDto;
+import com.example.rtt_server.dto.ObjectDto;
 import com.example.rtt_server.service.LinkService;
+import com.example.rtt_server.service.ObjectService;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class LinkController {
-    //링크와 관련된 요청을 처리하는 컨트롤러 클래스
-    //추후 구현 예정
+    private final LinkService LinkService;
+
+    public LinkController(LinkService LinkService) {
+        this.LinkService = LinkService;
+    }
+
+    @GetMapping("/{LinkId}")
+    public ResponseEntity<LinkDto> getLink(@PathVariable int LinkId) {
+        LinkDto LinkDto = LinkService.getLinkById(LinkId);
+        return ResponseEntity.ok(LinkDto);
+    }
 }
