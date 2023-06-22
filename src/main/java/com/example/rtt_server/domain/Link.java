@@ -1,7 +1,7 @@
 package com.example.rtt_server.domain;
 
 public class Link {
-    private int lineId;
+    private int linkId;
     private String linkGuid;
     private int startNodeId;
     private int endNodeId;
@@ -11,12 +11,12 @@ public class Link {
     private String familyName;
     private String geometry;
 
-    public int getLineId() {
-        return lineId;
+    public int getLinkId() {
+        return linkId;
     }
 
-    public void setLineId(int lineId) {
-        this.lineId = lineId;
+    public void setLinkId(int lineId) {
+        this.linkId = linkId;
     }
 
     public String getLinkGuid() {

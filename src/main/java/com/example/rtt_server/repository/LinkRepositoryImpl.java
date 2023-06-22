@@ -26,7 +26,7 @@ public class LinkRepositoryImpl implements LinkRepository {
         @Override
         public Link mapRow(ResultSet rs, int rowNum) throws SQLException {
             Link link = new Link();
-            link.setLineId(rs.getInt("Link_id"));
+            link.setLinkId(rs.getInt("Link_id"));
             link.setLinkGuid(rs.getString("Link_guid"));
             link.setStartNodeId(rs.getInt("Start_node_id"));
             link.setEndNodeId(rs.getInt("End_node_id"));
