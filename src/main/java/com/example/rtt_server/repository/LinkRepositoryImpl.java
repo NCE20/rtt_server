@@ -1,10 +1,8 @@
 package com.example.rtt_server.repository;
-
 import com.example.rtt_server.domain.Link;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
-
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a98c08-f712-447e-9cb3-094f5f451850" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/data/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/node.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtt_client/data/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtt_client/data/node.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rtt_client/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/repository/LinkRepositoryImpl$LinkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/repository/LinkRepositoryImpl$LinkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/repository/LinkRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/repository/LinkRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/util/DatabaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/rtt_server/util/DatabaseConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/repository/LinkRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/repository/LinkRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/repository/LinkRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/repository/LinkRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/util/DatabaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rtt_server/util/DatabaseConnector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +34,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,13 +73,24 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nochaeeun/rtt_server&quot;
+    &quot;last_opened_file_path&quot;: &quot;/Users/nochaeeun/rtt_server/rtt_client&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.rtt_server.controller" />
       <recent name="com.example.rtt_server.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rtt_client" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rtt_client/src" />
     </key>
   </component>
   <component name="RunManager">
