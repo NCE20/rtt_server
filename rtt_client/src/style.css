@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+}
+
+.custom-select {
+  position: absolute;
+  top: 30px;
+  left: 55px;
+}
+
+.custom-select2 {
+  position: absolute;
+  top: 90px;
+  left: 55px;
+}
+
+.custom-select3 {
+  position: absolute;
+  top: 150px;
+  left: 55px;
+}
+
+.custom-select4 {
+  position: absolute;
+  top: 210px;
+  left: 55px;
+}
+
+.custom-select-link {
+  position: absolute;
+  top: 270px;
+  left: 55px;
+}
+
+.custom-select-link2 {
+  position: absolute;
+  top: 330px;
+  left: 55px;
+}
+
+.custom-select-link3 {
+  position: absolute;
+  top: 390px;
+  left: 55px;
+}
+
+.custom-select-link4 {
+  position: absolute;
+  top: 450px;
+  left: 55px;
+}
+
+.custom-select-link5 {
+  position: absolute;
+  top: 510px;
+  left: 55px;
+}
+
+.custom-select-link6 {
+  position: absolute;
+  top: 570px;
+  left: 55px;
+}
+
+.custom-select-link7 {
+  position: absolute;
+  top: 630px;
+  left: 55px;
+}
+
+.custom-select-link8 {
+  position: absolute;
+  top: 690px;
+  left: 55px;
+}
