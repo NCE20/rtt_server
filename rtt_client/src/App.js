@@ -18,6 +18,20 @@ const App = () => {
 
   ////
 
+  const linkId = 1; // 원하는 Link ID
+  const apiUrl = `/links/${linkId}`;
+
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      // 링크 객체 값을 표시하는 로직을 작성
+      // 화면에 표시하는 로직 추가
+
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
+
   useEffect(() => {
     // 파일을 불러오는 비동기 함수
     const readFile = async () => {
